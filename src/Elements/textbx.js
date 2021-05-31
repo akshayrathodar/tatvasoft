@@ -12,6 +12,8 @@ const useStyles = makeStyles((theme) => ({
     },
   }));
 
+
+  // custom component for textbox
 export const Textbx = (props) => {
     return (
         <TextField required id="standard-required" variant="outlined" label="Enter Budget" value={props.value} onChange={props.changeEvent} />        
